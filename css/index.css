@@ -1,0 +1,25 @@
+.title {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    font-size: 60px;
+    background-color: #444444;
+    border-radius: 25px;
+    color: white;
+}
+
+.content {
+    animation: title_fade_in 1.2s;
+    text-align: center;
+}
+
+@keyframes title_fade_in {
+    from {
+        opacity: 0;
+        margin-top: 111vh;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 75px;
+    }
+}

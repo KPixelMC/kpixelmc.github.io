@@ -1,0 +1,49 @@
+.about_section:hover {
+    background: -moz-linear-gradient(48deg, currentcolor 43%, rgba(221,221,221,0.02) 94%);
+    background: -webkit-linear-gradient(48deg, currentcolor 43%, rgba(221,221,221,0.02) 94%);
+    background: linear-gradient(48deg, currentcolor 43%, rgba(221,221,221,0.02) 94%);
+}
+
+.github_page {
+    color: white;
+    width: 55vw;
+    background: white;
+    height: 40vh;
+    text-align: center;
+    line-height: 40vh;
+    margin: 75px auto;
+    border-radius: 30px;
+}
+
+.discord_server {
+    color: #5663F7;
+    width: 55vw;
+    background-color: #5663F7;
+    height: 40vh;
+    text-align: center;
+    line-height: 40vh;
+    margin: 75px auto;
+    border-radius: 30px;
+}
+
+.web_developer {
+    color: orangered;
+    width: 55vw;
+    background-color: orangered;
+    height: 40vh;
+    text-align: center;
+    line-height: 40vh;
+    margin: 75px auto;
+    border-radius: 30px;
+}
+
+.youtube_channel {
+    color: white;
+    width: 55vw;
+    background-color: white;
+    height: 40vh;
+    text-align: center;
+    line-height: 40vh;
+    margin: 75px auto;
+    border-radius: 30px;
+}
