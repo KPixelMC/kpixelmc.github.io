@@ -1,0 +1,31 @@
+.container_gradient {
+    margin-left: 10vw;
+    font-size: 36px;
+    width: 80vw;
+    height: 50vh;
+    border-radius: 125px;
+    background: linear-gradient(90deg, #ccc, #000077);
+    text-align: center;
+}
+
+th.minigame {
+    width: 20vw;
+    height: 12vh;
+    background-color: #aaaaff;
+    border: 4px transparent solid;
+    border-radius: 30px;
+}
+
+th.minigame:hover {
+    animation: minigame_hover 0.9s;
+}
+
+@keyframes minigame_hover {
+    from {
+        background-color: #aaaaff;
+    }
+
+    to {
+        background-color: #ccccff;
+    }
+}
